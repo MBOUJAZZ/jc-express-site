@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Demande de devis transport sur mesure | JC EXPRESS</title>
+    <meta
+      name="description"
+      content="Décrivez votre transport événementiel, luxe ou marchandises et préparez une demande de devis auprès de JC EXPRESS."
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="theme-color" content="#252a31" />
+    <link rel="icon" type="image/png" href="assets/logo-jc-express.png" />
+    <link rel="preload" as="image" href="assets/route-semi-jc-express-badges.jpg" fetchpriority="high" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="subpage-body">
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+    <header class="legal-topbar subpage-topbar">
+      <a class="brand" href="index.html" aria-label="JC EXPRESS - Retour à l'accueil" data-brand>
+        <img src="assets/logo-jc-express.png" alt="Transport JC EXPRESS" />
+      </a>
+      <nav class="subpage-nav" aria-label="Navigation secondaire">
+        <a href="index.html">Accueil</a>
+        <a href="index.html#services">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="legal-back" href="tel:+33953778694">09 53 77 86 94</a>
+    </header>
+
+    <main id="contenu">
+      <section class="subpage-hero quote-page-hero" aria-labelledby="quote-page-title">
+        <div class="subpage-hero-media" aria-hidden="true">
+          <img src="assets/route-semi-jc-express-badges.jpg" alt="" width="1919" height="820" decoding="async" />
+        </div>
+        <div class="subpage-hero-scrim" aria-hidden="true"></div>
+        <div class="subpage-hero-inner">
+          <p class="section-label">Votre prochain transport</p>
+          <h1 id="quote-page-title">Demande de devis</h1>
+          <p>
+            Quelques informations suffisent pour commencer. JC EXPRESS analyse le trajet, le volume, le calendrier
+            et les contraintes avant de confirmer la solution adaptée.
+          </p>
+        </div>
+      </section>
+
+      <section class="quote-page-grid" aria-label="Formulaire de demande de devis">
+        <aside class="quote-guidance">
+          <p class="section-label">Bien préparer la demande</p>
+          <h2>Les informations qui accélèrent la réponse.</h2>
+          <p>
+            Un poids approximatif, les dimensions, les horaires d'accès et la présence éventuelle d'un quai ou d'un
+            moyen de manutention permettent de proposer le bon véhicule dès le premier échange.
+          </p>
+          <ul>
+            <li>Adresse précise de départ et d'arrivée</li>
+            <li>Date et horaire impératif, s'il existe</li>
+            <li>Nature, quantité, poids et dimensions</li>
+            <li>Accès, étage, quai ou manutention</li>
+          </ul>
+          <div class="quote-help">
+            <span>Besoin d'aide avant de remplir ?</span>
+            <a href="tel:+33621654037">06 21 65 40 37</a>
+          </div>
+        </aside>
+
+        <form class="quote-wizard" data-quote-form data-quote-wizard>
+          <ol class="wizard-progress" aria-label="Progression de la demande">
+            <li class="is-active" data-step-indicator="0"><span>1</span>Coordonnées</li>
+            <li data-step-indicator="1"><span>2</span>Transport</li>
+            <li data-step-indicator="2"><span>3</span>Détails</li>
+          </ol>
+
+          <section class="form-step" data-form-step="0">
+            <div class="form-step-heading">
+              <span>Étape 1 sur 3</span>
+              <h2>Qui devons-nous contacter ?</h2>
+              <p>Ces coordonnées seront uniquement utilisées pour répondre à votre demande.</p>
+            </div>
+            <div class="quote-form">
+              <div class="form-row">
+                <label for="q-name">Nom et prénom</label>
+                <input id="q-name" name="name" type="text" autocomplete="name" required />
+              </div>
+              <div class="form-row">
+                <label for="q-company">Entreprise</label>
+                <input id="q-company" name="company" type="text" autocomplete="organization" />
+              </div>
+              <div class="form-row">
+                <label for="q-phone">Téléphone</label>
+                <input id="q-phone" name="phone" type="tel" autocomplete="tel" required />
+              </div>
+              <div class="form-row">
+                <label for="q-email">Email</label>
+                <input id="q-email" name="email" type="email" autocomplete="email" required />
+              </div>
+            </div>
+            <div class="wizard-actions wizard-actions-end">
+              <button class="button button-primary" type="button" data-step-next>Continuer</button>
+            </div>
+          </section>
+
+          <section class="form-step" data-form-step="1" hidden>
+            <div class="form-step-heading">
+              <span>Étape 2 sur 3</span>
+              <h2>Quel transport faut-il organiser ?</h2>
+              <p>Le véhicule sera confirmé après analyse de l'ensemble des informations.</p>
+            </div>
+            <div class="quote-form">
+              <div class="form-row">
+                <label for="q-service">Type de transport</label>
+                <select id="q-service" name="service" required>
+                  <option value="">Choisir</option>
+                  <option>Transport événementiel</option>
+                  <option>Transport luxe</option>
+                  <option>Transport de marchandises</option>
+                  <option>Transport urgent</option>
+                  <option>Transport sur mesure</option>
+                </select>
+              </div>
+              <div class="form-row">
+                <label for="q-date">Date souhaitée</label>
+                <input id="q-date" name="date" type="date" required />
+              </div>
+              <div class="form-row">
+                <label for="q-departure">Adresse de départ</label>
+                <input id="q-departure" name="departure" type="text" autocomplete="street-address" required />
+              </div>
+              <div class="form-row">
+                <label for="q-arrival">Adresse d'arrivée</label>
+                <input id="q-arrival" name="arrival" type="text" required />
+              </div>
+              <div class="form-row">
+                <label for="q-time">Horaire ou créneau</label>
+                <input id="q-time" name="time" type="text" placeholder="Ex. livraison avant 10 h" />
+              </div>
+              <div class="form-row">
+                <label for="q-vehicle">Véhicule envisagé</label>
+                <select id="q-vehicle" name="vehicle">
+                  <option value="">À définir ensemble</option>
+                  <option>VL Ford</option>
+                  <option>Renault Master VL</option>
+                  <option>Porteur MAN</option>
+                  <option>Tracteur Mercedes</option>
+                  <option>Semi-remorque</option>
+                </select>
+              </div>
+            </div>
+            <div class="wizard-actions">
+              <button class="button button-ghost" type="button" data-step-prev>Retour</button>
+              <button class="button button-primary" type="button" data-step-next>Continuer</button>
+            </div>
+          </section>
+
+          <section class="form-step" data-form-step="2" hidden>
+            <div class="form-step-heading">
+              <span>Étape 3 sur 3</span>
+              <h2>Que devons-nous prévoir ?</h2>
+              <p>Une estimation reste possible si le poids ou les dimensions exactes ne sont pas encore connus.</p>
+            </div>
+            <div class="quote-form">
+              <div class="form-row">
+                <label for="q-goods">Marchandise ou matériel</label>
+                <input id="q-goods" name="goods" type="text" placeholder="Ex. 8 palettes, flight cases, mobilier" required />
+              </div>
+              <div class="form-row">
+                <label for="q-weight">Poids ou volume estimé</label>
+                <input id="q-weight" name="weight" type="text" placeholder="Ex. 1 200 kg ou 12 m³" />
+              </div>
+              <div class="form-row form-wide">
+                <label for="q-access">Contraintes d'accès ou de manutention</label>
+                <input id="q-access" name="access" type="text" placeholder="Quai, hayon, étage, badge, créneau technique..." />
+              </div>
+              <div class="form-row form-wide">
+                <label for="q-message">Informations complémentaires</label>
+                <textarea id="q-message" name="message" rows="5" placeholder="Décrivez les points importants de la mission."></textarea>
+              </div>
+              <label class="consent-row form-wide" for="q-privacy">
+                <input id="q-privacy" name="privacy" type="checkbox" required />
+                <span>J'accepte que ces informations soient utilisées pour répondre à ma demande de devis.</span>
+              </label>
+            </div>
+            <div class="wizard-actions">
+              <button class="button button-ghost" type="button" data-step-prev>Retour</button>
+              <button class="button button-primary" type="submit">Préparer ma demande</button>
+            </div>
+            <p class="form-note" aria-live="polite" data-form-note>
+              Le bouton ouvrira votre messagerie avec la demande pré-remplie.
+            </p>
+            <p class="form-privacy">
+              Le site ne stocke pas les champs saisis. <a href="mentions-legales.html#donnees">Données personnelles</a>
+            </p>
+          </section>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <img src="assets/logo-jc-express.png" alt="Transport JC EXPRESS" />
+        <p>On est ensemble, de la demande à la livraison.</p>
+      </div>
+      <div>
+        <strong>Navigation</strong>
+        <a href="index.html">Accueil</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <strong>Services</strong>
+        <a href="transport-ile-de-france.html">Transport 93 &amp; 95</a>
+        <a href="transport-evenementiel-mode-luxe.html">Événementiel, mode &amp; luxe</a>
+        <a href="transport-marchandises.html">Marchandises</a>
+      </div>
+      <div>
+        <strong>Informations</strong>
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="conditions-generales.html">Conditions générales</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

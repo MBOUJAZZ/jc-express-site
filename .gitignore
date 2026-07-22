@@ -1,0 +1,16 @@
+.agents/
+.vercel/
+.DS_Store
+Thumbs.db
+*.log
+
+# Conserver localement les sources lourdes, publier uniquement les images web.
+assets/*.png
+!assets/logo-jc-express.png
+assets/fleet-lineup-jc-express.jpg
+assets/fleet-loading-jc-express.jpg
+assets/fleet-semi-jc-express.jpg
+assets/route-paris-jc-express-branded.jpg
+assets/route-semi-jc-express-branded.jpg
+assets/joselin-clercius-fondateur.jpg
+assets/joselin-clercius-fondateur-2026.jpg
