@@ -7,6 +7,9 @@ Thumbs.db
 # Conserver localement les sources lourdes, publier uniquement les images web.
 assets/*.png
 !assets/logo-jc-express.png
+!assets/logo-jc-express-profil.png
+!assets/favicon-*.png
+!assets/apple-touch-icon.png
 assets/fleet-lineup-jc-express.jpg
 assets/fleet-loading-jc-express.jpg
 assets/fleet-semi-jc-express.jpg

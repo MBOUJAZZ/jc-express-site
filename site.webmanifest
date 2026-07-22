@@ -1,0 +1,21 @@
+{
+  "name": "JC EXPRESS",
+  "short_name": "JC EXPRESS",
+  "description": "Transport événementiel, mode, luxe et marchandises en Île-de-France et partout en France.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111316",
+  "theme_color": "#252a31",
+  "icons": [
+    {
+      "src": "/assets/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
