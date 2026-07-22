@@ -2385,6 +2385,18 @@ textarea {
   margin: 24px 0 28px;
 }
 
+.address-hours {
+  display: grid;
+  gap: 5px;
+  margin: -10px 0 28px;
+  color: #4c555d;
+  line-height: 1.5;
+}
+
+.address-hours strong {
+  color: var(--charcoal);
+}
+
 @media (max-width: 1060px) {
   .site-header {
     grid-template-columns: minmax(180px, 230px) auto auto;

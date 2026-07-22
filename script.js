@@ -429,7 +429,7 @@ quoteForm?.addEventListener("submit", (event) => {
     "Cordialement,"
   ].join("\n");
 
-  const mailto = `mailto:cljocelin42@yahoo.fr?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  const mailto = `mailto:contact@jcexpresstransport.fr?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   formNote.textContent = "Votre messagerie va s'ouvrir avec la demande pré-remplie.";
   window.location.href = mailto;
 });
@@ -455,7 +455,7 @@ contactForm?.addEventListener("submit", (event) => {
     "Cordialement,"
   ].join("\n");
 
-  const mailto = `mailto:cljocelin42@yahoo.fr?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  const mailto = `mailto:contact@jcexpresstransport.fr?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   contactNote.textContent = "Votre messagerie va s'ouvrir avec le message pré-rempli.";
   window.location.href = mailto;
 });
